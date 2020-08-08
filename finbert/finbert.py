@@ -3,6 +3,7 @@ from __future__ import absolute_import, division, print_function
 import random
 
 import pandas as pd
+# from pytorch_transformers import BertTokenizer
 from pytorch_pretrained_bert.tokenization import BertTokenizer
 from torch.nn import MSELoss
 from torch.utils.data import (DataLoader, RandomSampler, SequentialSampler,
